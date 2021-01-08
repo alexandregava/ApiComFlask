@@ -3,8 +3,7 @@ from insertDB import insertUsuario
 
 app = Flask("ApiComFlask")
 
-#testando versionamento
-#correcao de bug 2
+#Alterando aqui
 @app.route("/cadastra/usuario", methods=["POST"])
 def cadastraUsuario():
 
